@@ -18,3 +18,20 @@ Simple Undersatndable format Console view result showing the directory path.
 <h3 align="left">Future Improvements (Multithreading Consideration)</h3>
 1. Multithreading could be used to scan multiple folders or projects concurrently. For example, scanning different directories could be parallelized using the 
    Task class to speed up the process.
+
+
+## Dependencies
+
+- C#
+- .NET SDK (7.0.403)
+- Microsoft SQL Server (SQL Express 2022)
+- Microsoft Data.SqlClient (5.1.2)
+
+
+## How to use
+
+1. Clone the repository
+2. Create Database _or_ Import Database from backup
+3. Open the project in Visual Studio Code
+4. Install C# Dev Kit
+5. Run the project
