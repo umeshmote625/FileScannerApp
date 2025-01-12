@@ -11,10 +11,10 @@ Output is presented in a readable format with project names followed by the resp
 Simple Undersatndable format Console view result showing the directory path.
 
 <h3 align="left">Limitations and Considerations</h3>
-- The program is not multithreaded. If a directory has many files or deep nesting, the scanning process could be slower.
-- There is no practical limit on the number of files, projects, or folder depth, but performance may degrade with extremely big datasets on systems with 
-  limited resources.
+1. The program is not multithreaded. If a directory has many files or deep nesting, the scanning process could be slower.
+2. There is no practical limit on the number of files, projects, or folder depth, but performance may degrade with extremely big datasets on systems with 
+   limited resources.
 
 <h3 align="left">Future Improvements (Multithreading Consideration)</h3>
-- Multithreading could be used to scan multiple folders or projects concurrently. For example, scanning different directories could be parallelized using the 
-  Task class to speed up the process.
+1. Multithreading could be used to scan multiple folders or projects concurrently. For example, scanning different directories could be parallelized using the 
+   Task class to speed up the process.
