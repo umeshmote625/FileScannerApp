@@ -10,28 +10,16 @@ Group and display files by the projects (folders) they are part of.
 Output is presented in a readable format with project names followed by the respective files, indented by one tab.
 Simple Undersatndable format Console view result showing the directory path.
 
-<h3 align="left">Limitations and Considerations</h3>
-1. The program is not multithreaded. If a directory has many files or deep nesting, the scanning process could be slower.
-2. There is no practical limit on the number of files, projects, or folder depth, but performance may degrade with extremely big datasets on systems with 
-   limited resources.
 
-<h3 align="left">Future Improvements (Multithreading Consideration)</h3>
-1. Multithreading could be used to scan multiple folders or projects concurrently. For example, scanning different directories could be parallelized using the 
-   Task class to speed up the process.
+## Limitations and Considerations
+
+- The program is not multithreaded. If a directory has many files or deep nesting, the scanning process could be slower.
+- There is no practical limit on the number of files, projects, or folder depth, but performance may degrade with extremely big datasets on systems with 
+  limited resources.
 
 
-## Dependencies
 
-- C#
-- .NET SDK (7.0.403)
-- Microsoft SQL Server (SQL Express 2022)
-- Microsoft Data.SqlClient (5.1.2)
+## Future Improvements (Multithreading Consideration)
 
-
-## How to use
-
-1. Clone the repository
-2. Create Database _or_ Import Database from backup
-3. Open the project in Visual Studio Code
-4. Install C# Dev Kit
-5. Run the project
+1. Multithreading could be used to scan multiple folders or projects concurrently. For example, scanning different directories could be parallelized using 
+   the Task class to speed up the process.
