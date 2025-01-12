@@ -1,4 +1,4 @@
-<h3 align="center">Overview</h3>
+<h3 align="left">Overview</h3>
 The FileScanner project is a console application that scans a given directory (and its subdirectories) to identify 
 source files of specific types: .c, .h, .cpp, and .rc. The program groups files by the projects (folders) they belong 
 to and displays them in a hierarchical format. Files that appear in multiple projects are listed under each relevant project. 
